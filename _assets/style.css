@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Importação da Fonte */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9f9;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  gap: 20px;
+  padding-top: 70px;
+  justify-content: center;
+}
+
+/* CONFIGURAÇÕES DO VIDEO  */
+
+.video {
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 70%;
+  height: 100%;
+}
+
+.player-video {
+  width: 100%;
+  height: 600px;
+}
+
+.player-video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* FIM CONFIGURAÇÕES DO VIDEO  */
+
+/* INICIO DAS INFORMAÇÕES DO VIDEO  */
+
+.titulo-video {
+  font-size: 1.25em;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.informacoes-video {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* background-color: bisque; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+}
+
+.info-canal-com-botao {
+  display: flex;
+  gap: 40px;
+}
+
+.info-canal {
+  display: flex;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.informacoes-canal {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-left: 12px;
+}
+
+.informacoes-canal span {
+  font-weight: 300;
+  color: #090909;
+}
+
+.canal {
+  font-size: 0.8em;
+}
+
+.botao-inscrever {
+  background-color: #cc0000;
+  border: 0;
+  color: white;
+  font-weight: 0.8em;
+  font-weight: 600;
+  font-family: "Roboto";
+  height: 40px;
+  padding: 12px 35px;
+  border-radius: 3px;
+}
+
+.botoes-acoes {
+  display: flex;
+  gap: 50px;
+  /* background-color: rgba(0, 0, 255, 0.397); */
+  align-items: center;
+}
+
+.botoes-acoes .botao {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  align-items: center;
+}
+
+.descricao-video {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+  padding: 0 10px;
+}
+
+.descricao-video p {
+  font-weight: 300;
+}
+
+.barra-lateral {
+  background-color: coral;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
