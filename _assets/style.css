@@ -135,9 +135,39 @@ body {
   font-weight: 300;
 }
 
+
+/* BARRA LATERAL */
+
 .barra-lateral {
   background-color: coral;
   display: flex;
   flex-direction: column;
   width: 20%;
 }
+
+.caixa-video {
+
+  background-color: #cc0000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.caixa-video__thumb {
+
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+}
+
+.caixa-video__body {
+
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+
